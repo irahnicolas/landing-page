@@ -79,7 +79,6 @@ bottom: -10px;
 
 .main button:hover{
     background-color: #ff0048;
-    transform: scale()
 }   
     
 
@@ -94,12 +93,9 @@ bottom: -10px;
     background-image: url(../imgs/d.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y:-40px
+    background-position-y:-40px;
 }
-
-.girl:hover{
-    scale: 1.1;
-}
+    
 
 .container-2{
 background-color: rgb(0, 0, 0);
@@ -215,7 +211,7 @@ top: -350px;
     align-items: center;
     line-height: 40px;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-style: oblique;
     padding: 100px;
@@ -226,11 +222,61 @@ span.thor{
     color: gray;
     font-size: 35px;
     min-width: 600px;
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    bottom: -120px;
-    left: 300px;
+    top:70px
 }
 
 .container-3 p:hover{
     color:#ff0048
 }
+
+.container-4{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    bottom: 600px;
+    padding: 70px;
+
+}
+.container-4 h2{
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    position:relative;
+    top:10px;
+    right: -700px;
+    text-align: right;
+}
+
+.container-4 h3{
+    font-weight: lighter;
+    color: rgb(52, 52, 52);
+    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    position:relative;
+    top:-180px;
+    right: -100px;
+}
+
+.container-4 h3:hover{
+    color: #ffffff;
+}
+
+
+
+
