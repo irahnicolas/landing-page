@@ -123,6 +123,12 @@ top: -300px;
     background-position-y: -35px;
 }
 
+.box-1:hover{
+    transform: scale(1.1);
+}
+
+
+
 .box-2{
     width: 270px;
     height: 270px;
@@ -132,6 +138,11 @@ top: -300px;
     background-position-x: 10x;
 }
 
+.box-2:hover:hover{
+    transform: scale(1.1);
+}
+
+
 .box-3{
     width: 270px;
     height: 270px;
@@ -139,7 +150,10 @@ top: -300px;
     background-image: url(../imgs/c.jpg);
     background-size: cover;
     background-position-y: -500px;
+}
 
+.box-3:hover{
+    transform: scale(1.1);
 }
 
 .box-4{
@@ -148,7 +162,10 @@ top: -300px;
     padding: 30px;
     background-image: url(../imgs/f.jpg);
     background-size: cover;
+}
 
+.box-4:hover{
+    transform: scale(1.1);
 }
 
 .all-box{
@@ -157,6 +174,9 @@ top: -300px;
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+
 
 .all-p{
     display: flex;
