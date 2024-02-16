@@ -7,9 +7,8 @@ body{
 .container-h{
 background-color: rgb(3, 3, 3);
 color: azure;
-margin-top:0px;
 position: relative;
-bottom: 30px;;
+bottom: 30px;
 }
 
 .container-h button{
@@ -196,12 +195,10 @@ top: -350px;
 
 .container-3{
     background-color: rgb(6, 6, 6);
-    margin-left: 0%;
-    margin-right: auto;
-    width: 1000;
     height: 500px;
     position: relative;
-    bottom: 550px;
+    bottom: 470px;
+    
 }
 
 .container-3 p{
@@ -215,6 +212,8 @@ top: -350px;
     font-weight: lighter;
     font-style: oblique;
     padding: 100px;
+    position: relative;
+    top: -22px;
 }
 
 span.thor{
@@ -237,9 +236,9 @@ span.thor{
     position: relative;
     display: flex;
     justify-content: center;
-    height: 300px;
     bottom: 600px;
-    padding: 70px;
+    padding: 70px;  
+
 
 }
 .container-4 h2{
@@ -256,6 +255,7 @@ span.thor{
     top:10px;
     right: -700px;
     text-align: right;
+    
 }
 
 .container-4 h3{
@@ -271,12 +271,18 @@ span.thor{
     position:relative;
     top:-180px;
     right: -100px;
+    
 }
 
 .container-4 h3:hover{
-    color: #ffffff;
+    color: #ff0048;
 }
 
+
+.container-5 p{
+border: 1px solid red;
+
+}
 
 
 
